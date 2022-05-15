@@ -8,5 +8,10 @@
     --bodylight: #c7d3de; 
     --inputbg: #f1f1f1; 
     --gradient: linear-gradient(15deg, #0f7ece 0%, #7895fb 69.27%, #81c1fd 84.38%, #8a88ff 100%);
+}
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
