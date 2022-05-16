@@ -66,12 +66,13 @@ header li, a {
     border-radius: 8px;
 }
 
-/*---------- MAIN---------- */
+/*---------- main--hero---------- */
 
-main {
+.hero-container {
     width: 100%;
+    display: flex;
     height: 80vh;
-    padding: 79px 100px 0px 100px;
+    padding: 143px 100px 0px 100px;
     display: flex;
     background-image: url('./assets/Background-desktop.png');
     background-repeat: no-repeat;
@@ -79,27 +80,19 @@ main {
     background-position: center;
 }
 
-/*---------- main--hero---------- */
-
-.hero-container {
+.hero--content {
     width: 100%;
     height: auto;
-    display: inherit;
-}
-
-.hero--content {
-    width: 70%;
-    height: auto;
+    justify-content: space-between;
 }
 
 .hero--content h1 {
-    width: 80%;
+    width: 60%;
     font-size: 8.0rem;
     font-weight: 700;
     line-height: 90px;
     color: #FFFFFF;
     margin-bottom: 16px;
-    margin-top: 64px;
 }
 
 .hero--content span {
@@ -124,4 +117,71 @@ main {
     background-color: #FFFFFF;
     border-radius: 8px;
     border: none;
+}
+
+/*---------- TESTIMONIOS---------- */
+
+.testimonials {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 64px 100px 64px 100px;
+    background-color: var(--background);
+}
+
+.testimonials h2 {
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 84px;
+    color: var(--titulo);
+    margin-bottom: 32px;
+}
+
+.testimonials--cards-container {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    gap: 24px;
+}
+.testimonials .card-item {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 32px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+}
+
+.card-item h3 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 36px;
+    color: var(--titulo);
+}
+
+.card-item .tag {
+    width: fit-content;
+    padding: 2px 8px 2px 8px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 2.0rem;
+    font-weight: 500;
+    line-height: 30px;
+    color: var(--body);
+    border-radius: 5px;
+    border: none;
+    background-color: var(--background);
+}
+
+.card-item p {
+    width: 305px;
+    font-size: 2.0rem;
+    font-weight: 300;
+    line-height: 30px;
+    color: var(--body);
 }
