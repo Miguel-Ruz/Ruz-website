@@ -24,13 +24,13 @@ html {
 /*---------- HEADER---------- */
 
 header {
+    position: absolute;
     width: 100%;
     height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 16px 100px 16px 100px;
-    background-color: #2c2c2c;
 }
 
 /*---------- Header--nav---------- */
@@ -59,7 +59,69 @@ header li, a {
     font-size: 2.0rem;
     font-weight: 500;
     line-height: 30px;
+    font-family: 'Prompt', sans-serif;
+    border: none;
     color: var(--titulo);
     background-color: #FFFFFF;
     border-radius: 8px;
+}
+
+/*---------- MAIN---------- */
+
+main {
+    width: 100%;
+    height: 80vh;
+    padding: 79px 100px 0px 100px;
+    display: flex;
+    background-image: url('./assets/Background-desktop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*---------- main--hero---------- */
+
+.hero-container {
+    width: 100%;
+    height: auto;
+    display: inherit;
+}
+
+.hero--content {
+    width: 70%;
+    height: auto;
+}
+
+.hero--content h1 {
+    width: 80%;
+    font-size: 8.0rem;
+    font-weight: 700;
+    line-height: 90px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    margin-top: 64px;
+}
+
+.hero--content span {
+    color: var(--principal-light);
+}
+
+.hero--content p {
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 36px;
+    margin-bottom: 32px;
+    color: #FFFFFF;
+}
+
+.hero--button { 
+    padding: 16px 32px 16px 32px;
+    font-size: 2.0rem;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: 'Prompt', sans-serif;
+    color: var(--titulo);
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    border: none;
 }
