@@ -70,9 +70,10 @@ header li, a {
 
 .hero-container {
     width: 100%;
+    margin: 0 auto;
     display: flex;
-    height: 80vh;
-    padding: 143px 100px 0px 100px;
+    height: 90vh;
+    padding: 180px 100px 0px 100px;
     display: flex;
     background-image: url('./assets/Background-desktop.png');
     background-repeat: no-repeat;
@@ -92,6 +93,7 @@ header li, a {
     font-weight: 700;
     line-height: 90px;
     color: #FFFFFF;
+    margin-top: 16px;
     margin-bottom: 16px;
 }
 
@@ -139,16 +141,15 @@ header li, a {
 }
 
 .testimonials--cards-container {
-    width: fit-content;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: row;
-    flex-wrap:wrap;
-    justify-content: space-between;
+/*     flex-wrap:wrap; */
     gap: 24px;
 }
 .testimonials .card-item {
-    width: fit-content;
+    width: auto;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -179,7 +180,6 @@ header li, a {
 }
 
 .card-item p {
-    width: 305px;
     font-size: 2.0rem;
     font-weight: 300;
     line-height: 30px;
