@@ -145,7 +145,6 @@ header li, a {
     height: auto;
     display: flex;
     flex-direction: row;
-/*     flex-wrap:wrap; */
     gap: 24px;
 }
 .testimonials .card-item {
@@ -184,4 +183,42 @@ header li, a {
     font-weight: 300;
     line-height: 30px;
     color: var(--body);
+}
+
+/*---------- HABILIDADES---------- */
+
+.habilidades {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 64px 100px 64px 100px;
+    background-color: #FFFFFF;
+    gap: 32px;
+}
+
+.habilidades h2 {
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 84px;
+    color: var(--titulo);
+}
+
+.habilidades span {
+    color: var(--body);
+}
+
+/*---------- Habilidades--button---------- */
+
+.Habilidades--button {
+    width: fit-content;
+    padding: 16px 32px 16px 32px;
+    font-size: 2.0rem;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: 'Prompt', sans-serif;
+    color: #FFFFFF;
+    background-color: var(--principal);
+    border-radius: 8px;
+    border: none;
 }
