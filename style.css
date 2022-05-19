@@ -59,6 +59,7 @@ header li, a {
     font-size: 2.0rem;
     font-weight: 500;
     line-height: 30px;
+    cursor: pointer;
     font-family: 'Prompt', sans-serif;
     border: none;
     color: var(--titulo);
@@ -114,6 +115,7 @@ header li, a {
     font-size: 2.0rem;
     font-weight: 500;
     line-height: 30px;
+    cursor: pointer;
     font-family: 'Prompt', sans-serif;
     color: var(--titulo);
     background-color: #FFFFFF;
@@ -216,6 +218,7 @@ header li, a {
     font-size: 2.0rem;
     font-weight: 500;
     line-height: 30px;
+    cursor: pointer;
     font-family: 'Prompt', sans-serif;
     color: #FFFFFF;
     background-color: var(--principal);
@@ -298,6 +301,7 @@ header li, a {
     font-size: 2.0rem;
     font-weight: 500;
     line-height: 30px;
+    cursor: pointer;
     font-family: 'Prompt', sans-serif;
     color: #FFFFFF;
     background-color: var(--principal);
