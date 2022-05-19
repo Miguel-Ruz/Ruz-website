@@ -210,7 +210,89 @@ header li, a {
 
 /*---------- Habilidades--button---------- */
 
-.Habilidades--button {
+.habilidades--button {
+    width: fit-content;
+    padding: 16px 32px 16px 32px;
+    font-size: 2.0rem;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: 'Prompt', sans-serif;
+    color: #FFFFFF;
+    background-color: var(--principal);
+    border-radius: 8px;
+    border: none;
+}
+
+/*---------- HABILIDADES---------- */
+
+.proyects {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 64px 100px 64px 100px;
+    background-color: var(--background);
+    gap: 32px;
+}
+
+.proyects img {
+    width: 593px;
+    border-radius: 16px;
+}
+.proyects h2 {
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 84px;
+    color: var(--titulo);
+}
+
+.proyects--item {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.proyect-card {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 32px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+}
+
+.proyect-card h3 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 42px;
+    color: var(--titulo);
+}
+
+.proyect-card .tag {
+    width: fit-content;
+    padding: 2px 8px 2px 8px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 2.0rem;
+    font-weight: 500;
+    line-height: 30px;
+    color: var(--body);
+    border-radius: 5px;
+    border: none;
+    background-color: var(--background);
+}
+
+.proyect-card p {
+    font-size: 2.0rem;
+    font-weight: 300;
+    line-height: 30px;
+    color: var(--body);
+}
+
+.proyect-card .proyect-card--button {
     width: fit-content;
     padding: 16px 32px 16px 32px;
     font-size: 2.0rem;
